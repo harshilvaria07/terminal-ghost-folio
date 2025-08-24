@@ -24,7 +24,7 @@ export const SkillsMatrix: React.FC = () => {
                 {skill.category}
               </span>
               <span className="text-terminal-green font-terminal text-xs">
-                {skill.level}%
+                {skill.level}
               </span>
             </div>
             

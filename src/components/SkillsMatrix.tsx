@@ -19,20 +19,10 @@ export const SkillsMatrix: React.FC = () => {
         
         {skills.map((skill, index) => (
           <div key={index} className="space-y-2">
-            <div className="flex justify-between items-center">
+            <div className="mb-3">
               <span className="text-terminal-cyan font-terminal text-sm">
                 {skill.category}
               </span>
-              <span className="text-terminal-green font-terminal text-xs">
-                {skill.level}
-              </span>
-            </div>
-            
-            <div className="w-full bg-muted rounded-sm h-2 overflow-hidden">
-              <div 
-                className="h-full bg-gradient-to-r from-primary to-secondary transition-all duration-1000 ease-out"
-                style={{ width: `${skill.level}%` }}
-              />
             </div>
             
             <div className="flex flex-wrap gap-2">

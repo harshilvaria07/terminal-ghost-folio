@@ -12,33 +12,33 @@ import { MatrixRain } from '@/components/MatrixRain';
 const Portfolio = () => {
   const projects = [
     {
-      title: 'HackTheBox Challenges',
-      description: 'Solved 50+ boxes with focus on privilege escalation and post-exploitation techniques.',
-      tech: ['Linux', 'Windows', 'Active Directory', 'Buffer Overflow'],
-      status: 'Ongoing',
-      link: '#'
-    },
-    {
-      title: 'Internal Network Audit Tool',
-      description: 'Developed a Python-based tool for internal vulnerability scanning and automated reporting.',
-      tech: ['Python', 'Nmap', 'JSON', 'OWASP'],
+      title: 'Enterprise WAF Implementation',
+      description: 'Led comprehensive WAF deployment using Akamai and Imperva solutions for enhanced web application security.',
+      tech: ['Akamai WAF', 'Imperva', 'Rule Configuration', 'Security Policies'],
       status: 'Completed',
       link: '#'
     },
     {
-      title: 'Bug Bounty Reports',
-      description: 'Submitted valid security bugs on platforms like HackerOne & Bugcrowd with $5k+ rewards.',
-      tech: ['Web App Security', 'XSS', 'SQLi', 'IDOR'],
+      title: 'VAPT Assessment Framework',
+      description: 'Developed automated vulnerability assessment workflows using Nessus, Acunetix, and Burp Suite.',
+      tech: ['Burp Suite', 'Nessus', 'Acunetix', 'VAPT Methodology'],
+      status: 'Ongoing',
+      link: '#'
+    },
+    {
+      title: 'Cloud Security Monitoring',
+      description: 'Implemented AWS security monitoring using Inspector and Kibana for real-time threat detection.',
+      tech: ['AWS Inspector', 'Kibana', 'Elasticsearch', 'Cloud Security'],
       status: 'Active',
       link: '#'
     }
   ];
 
   const certifications = [
-    'CompTIA Security+',
-    'Offensive Security Certified Professional (OSCP)',
-    'Certified Ethical Hacker (CEH)',
-    'GIAC Penetration Tester (GPEN)'
+    'AWS Cloud Practitioner',
+    'Ethical Hacking Certification',
+    'Security Operations Specialist',
+    'Vulnerability Assessment Professional'
   ];
 
   return (
@@ -79,12 +79,12 @@ const Portfolio = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold mb-4 font-terminal">
-            <GlitchText text="Alex Rodriguez" className="text-primary" />
+            <GlitchText text="Varia Harshil" className="text-primary" />
           </h1>
           
           <div className="text-xl md:text-2xl mb-8 font-terminal text-terminal-cyan">
             <TypingAnimation 
-              text="Cybersecurity Specialist | Ethical Hacker | Penetration Tester" 
+              text="Associate Security Operations Specialist | Purple Team | VAPT Expert" 
               speed={50}
               showCursor={false}
             />
@@ -109,17 +109,17 @@ const Portfolio = () => {
               <div className="terminal-prompt">cat about_me.txt</div>
               <div className="text-foreground leading-relaxed font-terminal">
                 <p className="mb-4">
-                  Passionate cybersecurity expert with <span className="text-terminal-green">2+ years</span> of hands-on experience in 
-                  penetration testing, vulnerability assessment, threat analysis, and network security.
+                  Passionate cybersecurity expert with <span className="text-terminal-green">2+ years</span> of hands-on experience as a 
+                  purple team specialist, combining both red team and blue team methodologies for comprehensive security operations.
                 </p>
                 <p className="mb-4">
-                  Skilled in ethical hacking methodologies, red teaming, and cyber threat intelligence with a 
-                  <span className="text-terminal-cyan"> proven record</span> of identifying and patching critical vulnerabilities 
-                  in real-world systems.
+                  Skilled in <span className="text-terminal-cyan">Vulnerability Assessment and Penetration Testing (VAPT)</span>, 
+                  WAF operations, EDR management, and advanced log analysis using Elasticsearch Kibana. 
+                  Proven expertise in <span className="text-terminal-yellow">cloud security, incident response, and threat hunting</span>.
                 </p>
                 <p className="mb-4">
-                  Strong foundation in <span className="text-terminal-yellow">OSINT, Metasploit, Wireshark, Burp Suite, and Kali Linux</span>. 
-                  Active contributor to open-source security tools and cybersecurity communities.
+                  Experienced with enterprise security tools including <span className="text-terminal-yellow">AWS Inspector, Burp Suite, Nessus, 
+                  Imperva, Akamai, and Symantec</span>. Specialized in false positive analysis and security automation.
                 </p>
                 <div className="text-terminal-green font-terminal">
                   <span className="text-terminal-cyan">$</span> echo "Current status: Available for new challenges"

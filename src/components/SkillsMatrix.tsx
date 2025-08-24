@@ -2,12 +2,13 @@ import React from 'react';
 import { TerminalWindow } from './TerminalWindow';
 
 const skills = [
-  { category: 'Penetration Testing', level: 95, tools: ['Nmap', 'Metasploit', 'Burp Suite'] },
-  { category: 'Vulnerability Assessment', level: 90, tools: ['Nessus', 'OpenVAS', 'Qualys'] },
-  { category: 'Network Security', level: 88, tools: ['Wireshark', 'pfSense', 'Snort'] },
-  { category: 'Ethical Hacking', level: 92, tools: ['Kali Linux', 'OSINT', 'Social Engineering'] },
-  { category: 'SIEM & Threat Hunting', level: 85, tools: ['Splunk', 'ELK Stack', 'QRadar'] },
-  { category: 'Red/Blue Teaming', level: 87, tools: ['Cobalt Strike', 'MITRE ATT&CK', 'Sigma Rules'] }
+  { category: 'VAPT & Security Assessment', level: 92, tools: ['Burp Suite', 'Nessus', 'Acunetix'] },
+  { category: 'Cloud Security (AWS)', level: 88, tools: ['AWS Inspector', 'Cloud Security', 'IAM'] },
+  { category: 'SIEM & Log Analysis', level: 90, tools: ['Kibana', 'Elasticsearch', 'ELK Stack'] },
+  { category: 'WAF & Network Security', level: 87, tools: ['Imperva', 'Akamai', 'Cloudflare'] },
+  { category: 'Purple Team Operations', level: 85, tools: ['Red Team', 'Blue Team', 'Threat Hunting'] },
+  { category: 'Endpoint Security & EDR', level: 83, tools: ['Symantec', 'EDR Management', 'Incident Response'] },
+  { category: 'Threat Intelligence', level: 86, tools: ['SocRadar', 'BitSight', 'Risk Assessment'] }
 ];
 
 export const SkillsMatrix: React.FC = () => {

@@ -79,7 +79,7 @@ const Portfolio = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold mb-4 font-terminal">
-            <GlitchText text="Varia Harshil" className="text-primary" />
+            <GlitchText text="Harshil Varia" className="text-primary" />
           </h1>
           
           <div className="text-xl md:text-2xl mb-8 font-terminal text-terminal-cyan">
@@ -91,14 +91,24 @@ const Portfolio = () => {
           </div>
           
           <div className="flex justify-center gap-4 mt-8">
-            <Button className="bg-primary hover:bg-primary/80 text-primary-foreground font-terminal">
+            <a
+          href="http://www.linkedin.com/in/harshil-varia-11850b1b3"
+          target="_blank"
+          rel="noopener noreferrer">
+            <Button className="bg-primary hover:bg-primary/80 text-primary-foreground font-terminal">            
               <Terminal className="w-4 h-4 mr-2" />
               View Portfolio
             </Button>
+            </a>
+            <a
+             href="http://www.linkedin.com/in/harshil-varia-11850b1b3"
+          target="_blank"
+          rel="noopener noreferrer">
             <Button variant="outline" className="border-border text-foreground font-terminal hover-glow">
               <Shield className="w-4 h-4 mr-2" />
               Security Reports
             </Button>
+             </a>
           </div>
         </section>
 
@@ -212,27 +222,47 @@ const Portfolio = () => {
         </section>
 
         {/* Social Links */}
-        <section>
-          <TerminalWindow title="social_links.sh" className="hover-glow">
-            <div className="space-y-4">
-              <div className="terminal-prompt">Connecting to external networks...</div>
-              <div className="flex justify-center gap-6">
-                <Button variant="outline" className="font-terminal hover-glow">
-                  <Github className="w-5 h-5 mr-2" />
-                  GitHub
-                </Button>
-                <Button variant="outline" className="font-terminal hover-glow">
-                  <Linkedin className="w-5 h-5 mr-2" />
-                  LinkedIn
-                </Button>
-                <Button variant="outline" className="font-terminal hover-glow">
-                  <Bug className="w-5 h-5 mr-2" />
-                  HackTheBox
-                </Button>
-              </div>
-            </div>
-          </TerminalWindow>
-        </section>
+<section>
+  <TerminalWindow title="social_links.sh" className="hover-glow">
+    <div className="space-y-4">
+      <div className="terminal-prompt">Connecting to external networks...</div>
+      <div className="flex justify-center gap-6">
+        <a
+          href="https://github.com/harshilvaria07"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button variant="outline" className="font-terminal hover-glow">
+            <Github className="w-5 h-5 mr-2" />
+            GitHub
+          </Button>
+        </a>
+
+        <a
+          href="http://www.linkedin.com/in/harshil-varia-11850b1b3"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button variant="outline" className="font-terminal hover-glow">
+            <Linkedin className="w-5 h-5 mr-2" />
+            LinkedIn
+          </Button>
+        </a>
+
+        <a
+          href="https://www.hackthebox.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button variant="outline" className="font-terminal hover-glow">
+            <Bug className="w-5 h-5 mr-2" />
+            HackTheBox
+          </Button>
+        </a>
+      </div>
+    </div>
+  </TerminalWindow>
+</section>
       </main>
 
       {/* Footer */}
